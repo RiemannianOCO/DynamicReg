@@ -1,0 +1,11 @@
+# Ignore .npy files
+*.npy
+*.mat
+# Ignore .eps files
+*.eps
+
+# Ignore .png files
+*.png
+
+# Ignore __pycache__ folders in all subdirectories
+**/__pycache__/
