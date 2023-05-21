@@ -40,7 +40,7 @@ sigma = config.param.sigma
 D = config.param.D
 G = config.param.G
 L = config.param.L
-eta_aoogd_min = (D**2/(16*zeta**2*G**2*T)) **(0.5)
+eta_aoogd_min = (sigma*D**2/(16*zeta**2*G**2*T)) **(0.5)
 eta_aoogd_max = sigma/(4*zeta*L)
 N_aoogd = int(np.log2(eta_aoogd_max/eta_aoogd_min)+1) + 1
 

@@ -29,7 +29,7 @@ for alg in str:
     plt.figure(1,figsize=Figsize)
     plt.plot(sum,**kw_dict[alg])
     plt.legend(loc=1,prop={'size':LabelFontdict})
-    plt.ylim(-5,200)
+    plt.ylim(-5,300)
     plt.xlabel('Learning Rounds',fontdict={'size':AxisFontdict})
     plt.ylabel('Accu. Loss',fontdict={'size':AxisFontdict})
     plt.xticks(size=AxisFontdict)
